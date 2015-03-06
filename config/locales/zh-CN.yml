@@ -2,15 +2,15 @@ zh-CN:
   meta_sidebar:
     content:
       rss_feed: "RSS Feed"
-      admin: "Admin"
+      admin: "管理员"
       powered_by_publify: "Powered by Publify"
-      search: "Search"
+      search: "搜索"
   search_sidebar:
     content:
-      search: "Search"
+      search: "搜索"
   page_sidebar:
     content:
-      pages: "Pages"
+      pages: "页"
   activerecord:
     errors:
       template:
@@ -20,75 +20,75 @@ zh-CN:
         article:
           attributes:
             title:
-              blank: "can't be blank"
+              blank: "不能为空"
   datetime:
     distance_in_words:
       x_days: "Distance in words"
   errors:
     404:
-      page_not_found: "Page not found"
-      the_page_you_are_looking_for: "The page you are looking for has moved or does not exist."
+      page_not_found: "页面不存在"
+      the_page_you_are_looking_for: "当前访问页面被移动或者不存在。"
   setup:
     confirm:
-      you_have_successfully_signed_up: "You have successfully signed up"
-      login: "Login: %{user}"
-      password: "Password: %{pass}"
-      dont_lose_the_mail_sent: "Don't lose the mail sent at %{email} or you won't be able to login anymore"
+      you_have_successfully_signed_up: "您已成功登录"
+      login: "登录: %{user}"
+      password: "密码: %{pass}"
+      dont_lose_the_mail_sent: "不要删除发送给%{email}的邮件，否则您将永远无法登录。"
       proceed_to: "Proceed to %{link}"
-      admin: "admin"
+      admin: "管理员"
     index:
-      blog_name: "Blog name"
-      save: "Save"
-      welcome_to_your_blog_setup: "Welcome to your blog setup"
-      your_mail: "Your email"
+      blog_name: "博客名"
+      save: "保存"
+      welcome_to_your_blog_setup: "欢迎进入博客设置"
+      your_mail: "您的邮箱"
     page:
       about: "关于"
       body: "This is an example of a Publify page. You can edit this to write information about yourself or your site so readers know who you are. You can create as many pages as this one as you like and manage all of your content inside Publify."
   comments:
     comment:
-      by: "by"
-      said: "發言"
+      by: "于"
+      said: "评论"
       this_comment_has_been_flagged_for_moderator_approval: "這篇评论被標示為版主所允許的。他不會在博客顯示直到版主承認他。"
   tags:
     index:
-      there_is_no_tags: "There is no tag"
-      next_page: "Next page"
-      previous_page: "Previous page"
+      there_is_no_tags: "没有找到标签"
+      next_page: "下一页"
+      previous_page: "上一页"
   helper:
-    at: "at"
+    at: "在"
   articles:
     password_form:
-      submit: "Submit"
+      submit: "提交"
     index:
-      next_page: "Next page"
-      previous_page: "Previous page"
-      page: "page"
+      next_page: "下一页"
+      previous_page: "上一页"
+      page: "页"
     search:
-      next_page: "Next page"
-      previous_page: "Previous page"
+      next_page: "下一页"
+      previous_page: "上一页"
     comment_preview:
       is_about_to_say: "这是关于~~"
     meta:
-      published_on: "Published on %{publish_date_and_time} by %{by}, tags %{tags}"
+      published_on: "发表于%{publish_date_and_time} 作者 %{by}, 标签 %{tags}"
     article:
       posted_by: "貼上"
       this_entry_was_posted_on: "This entry was posted on %{published_at}"
       you_can_follow_entries_through_the: "You can follow any response to this entry through the %{feed}"
       atom_feed: "Atom feed"
-      you_can_leave_a: "You can leave a %{comment}"
-      comment: "comment"
+      you_can_leave_a: "您可以评论%{comment}"
+      comment: "评论"
       or_trackback: "or a %{trackback} from your own site"
       trackback: "trackback"
-      read_full_article: "Read full article"
+      read_full_article: "阅读全文"
       comments: "评论"
     archives:
       posted_in: "发表在"
       no_articles_found: "没有找到任何文章"
     read:
-      comments_are_disabled: "Comments are disabled"
+      comments_are_disabled: "无法评论"
       trackbacks_for: "Trackbacks for"
       trackbacks_are_disabled: "Trackbacks are disabled"
-      if_you_liked_this_article_you_can: "If you liked this article you can %{add_twitter}"
+      if_you_liked_this_article_you_can: "如果您喜欢这篇文章，您可以分享到%{add_twitter}"
       add_me_to_twitter: "add me to Twitter"
       use_the_following_link_to_trackback: "從你所屬的網點用隨後的連結去引用"
       trackbacks: "Trackbacks"
@@ -98,19 +98,19 @@ zh-CN:
       rss_feed: "為本篇提供RSS"
       comments_are_disabled: "评论停用"
     comment_form:
-      required: "required"
-      leave_a_comment: "Leave a comment"
-      comment_author: "Name %{author}"
-      email: "Email"
-      website: "Website"
-      comments: "comments"
-      markdown_enabled: "Markdown enabled"
-      textile_enabled: "Textile enabled"
-      never_displayed: "never displayed"
-      comment: "comment"
-      email_address: "Email address"
-      your_website: "Your website"
-      leave_url_email: "leave url/email"
+      required: "必须的"
+      leave_a_comment: "发表评论"
+      comment_author: "作者 %{author}"
+      email: "邮箱"
+      website: "个人主页"
+      comments: "评论内容"
+      markdown_enabled: "支持Markdown"
+      textile_enabled: "支持Textile"
+      never_displayed: "永远不显示"
+      comment: "评论"
+      email_address: "邮箱地址"
+      your_website: "个人主页"
+      leave_url_email: "留下网址/邮箱"
       your_name: "你的名稱"
       your_blog: "你的博客"
       your_email: "你的email"
@@ -119,54 +119,54 @@ zh-CN:
       preview_comment: "預覽评论"
     article_links:
       comments:
-        zero: "no comments"
-        one: "1 comment"
-        other: "%{count} comments"
+        zero: "没有评论"
+        one: "1条评论"
+        other: "%{count}条评论"
     comment_counter:
       comments:
-        zero: "no comments"
-        one: "1 comment"
-        other: "%{count} comments"
+        zero: "没有评论"
+        one: "1条评论"
+        other: "%{count}条评论"
   notes:
     index:
-      next_page: "Next page"
-      previous_page: "Previous page"
+      next_page: "下一页"
+      previous_page: "上一页"
     note:
-      view_on_twitter: "View on Twitter"
+      view_on_twitter: "在Twitter上查看"
   profile:
     admin: "Publify administrator"
-    publisher: "Blog publisher"
+    publisher: "博客发布者"
     contributor: "Contributor"
   user:
     status:
-      active: "Active"
-      inactive: "Inactive"
+      active: "已激活"
+      inactive: "未激活"
   notice:
-    note_successfully_updated: "Note was successfully updated"
-    note_successfully_created: "Note was successfully created"
+    note_successfully_updated: "笔记更新成功"
+    note_successfully_created: "笔记创建成功"
   errors:
-    problem_sending_to_twitter: "Oooops something wrong happened"
-    you_are_not_allowed: "Error, you are not allowed to perform this action"
-    article_type_already_exist: "This article type already exists"
+    problem_sending_to_twitter: "Oooops。。。发生未知错误"
+    you_are_not_allowed: "错误，您没有权限访问当前目录"
+    article_type_already_exist: "文章类型已经存在"
     permalink_need_a_title: "You need a permalink format with an identifier : %%title%%"
     cant_end_with_rss_or_atom: "Can't end in .rss or .atom. These are reserved to be used for feed URLs"
     render_sidebar: "It seems something went wrong. Maybe some of your sidebars are actually missing and you should either reinstall them or remove them manually"
-    no_posts_found: "No posts found..."
-    no_notes_found: "No notes found..."
+    no_posts_found: "没有找到文章"
+    no_notes_found: "没有找到笔记"
   views:
     pagination:
       truncate: "Truncate"
-      next: "Next"
-      last: "Last"
+      next: "下一篇"
+      last: "上一篇"
   layouts:
     default:
       html:
-        home: "Home"
+        home: "主页"
         statuses: "Statuses"
         powered_by: "Powered by %{powered_by}"
         designed_by: "Designed by %{designed_by}"
     administration:
-      new: "New"
+      new: "新建"
   authors:
     show:
       contact_information: "Contact information"
@@ -190,9 +190,9 @@ zh-CN:
       successfully_deleted: "This %{name} was deleted successfully"
     notes:
       header:
-        notes: "Notes"
+        notes: "笔记"
       form:
-        now: "Now"
+        now: "现在"
         no_notes: "这儿并不存在Notes。让我们开始创建它。"
         how_to_setup_twitter: "If you want to push short statuses on Twitter, you need to %{twitter_settings_link} Twitter gave you after you %{twitter_registration_link}."
         fill_the_twitter_credentials: "fill in the oauth credentials"
@@ -210,7 +210,7 @@ zh-CN:
         publish: "发布"
       show:
         destroy_confirmation: "Destroy confirmation"
-        are_you_sure: "Are you sure you want to delete this note"
+        are_you_sure: "您确定要删除这篇笔记?"
         action_or_other: "%{first_action} 或 %{second_action}"
         cancel: "取消"
         delete: "删除"
@@ -221,8 +221,8 @@ zh-CN:
         no_redirects: "这儿并不存在Redirects。让我们开始创建它。"
         cancel: "取消"
         save: "保存"
-        or: "or"
-        redirects: "Redirects"
+        or: "或"
+        redirects: "外链"
         from: "From"
         to: "To"
         leave_empty_to_shorten_a_link: "Leave empty to shorten a link"
@@ -254,9 +254,9 @@ zh-CN:
         success: "更新配置"
       display:
         cancel: "取消"
-        or: "or"
-        update_settings: "Update settings"
-        ago: "ago"
+        or: "或者"
+        update_settings: "更新设定"
+        ago: "以前"
         custom_url: "Custom URL shortener domain"
         custom_url_help: "If you have a custom domain for URL shortening, enter it here."
         date_format: "Date format"
@@ -699,36 +699,36 @@ zh-CN:
         publication_pending: "Publication pending"
         search: "搜索"
         title: "标题"
-        select_a_category: "Select a category"
-        select_an_author: "Select an author"
-        publication_date: "Publication date"
+        select_a_category: "选择一个分类"
+        select_an_author: "选择一个作者"
+        publication_date: "发布时间"
         filter: "筛选"
       form:
-        article_type: "Article type"
-        now: "now"
-        preview: "Preview"
+        article_type: "文章类型"
+        now: "现在"
+        preview: "预览"
         save: "保存"
-        default: "Default"
+        default: "默认"
         cancel: "取消"
         allow_comments_status:
-          zero: "disabled"
-          one: "enabled"
+          zero: "无效"
+          one: "有效"
         allow_pings_status:
-          zero: "disabled"
-          one: "enabled"
-        public: "Public"
+          zero: "无效"
+          one: "有效"
+        public: "公开"
         publish: "发布"
         title: "标题"
-        images: "Images"
+        images: "图片"
         publish_settings: "发布设定"
         status: "状态"
         published: "已发表"
         allowed_comments_and_trackbacks: "Comments are %{allow_comment} and trackbacks are %{allow_trackback}"
-        change: "Change"
+        change: "更改"
         allow_trackbacks: "允许引用"
         allow_comments: "允许评论"
-        ok: "OK"
-        visibility: "Visibility"
+        ok: "确定"
+        visibility: "可见"
         password: "密码"
         permalink: "固定链接"
         article_filter: "Article filter"
@@ -736,7 +736,7 @@ zh-CN:
         categories: "分类"
         tags: "标签"
         tags_explaination: "Separate tags with commas. Use double quotes (&quot;) around multi-word tags, e.g. &quot;opera house&quot;."
-        type_your_post: "Type your post"
+        type_your_post: "输入文章"
       categories:
         new_category: "创建分类"
     categories:
@@ -752,16 +752,16 @@ zh-CN:
         description: "说明"
         title: "标题"
     menu:
-      help: "Help"
-      documentation: "Documentation"
-      report_a_bug: "Report a bug"
-      in_page_plugins: "In page plugins"
-      sidebar_plugins: "Sidebar plugins"
-      logged_in_as: "Logged in as %{login}"
+      help: "帮助"
+      documentation: "文档"
+      report_a_bug: "反馈bug"
+      in_page_plugins: "页内插件"
+      sidebar_plugins: "导航插件"
+      logged_in_as: "%{login}已登录"
       new_article: "新文章"
       new_page: "新页面"
-      new_media: "New Media"
-      new_note : "New Note"
+      new_media: "新媒体文件"
+      new_note : "新笔记"
       profile: "Profile"
       logout: "登出 &raquo;"
       home: "首页"
@@ -775,7 +775,7 @@ zh-CN:
         explaination: "To save on resources, Publify generates static files along with your content. These files are deleted when a new article is created. You can, at any time, delete these files yourself."
       destroy:
         success: "cache已清除"
-        error: "Cache could not be cleared"
+        error: "缓存无法删除"
     users:
       edit:
         success: "用户创建成功"
@@ -841,7 +841,7 @@ zh-CN:
         twitter: "Twitter username"
   accounts:
     back_to: "&larr; 返回 %{place}"
-    back_to_login: "Back to login"
+    back_to_login: "返回登录"
     create_account: "创建帐号"
     lost_my_password: "忘记密码"
     login:
